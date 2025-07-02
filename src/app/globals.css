@@ -40,3 +40,125 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Adicione este código no final de src/app/globals.css */
+
+.title.text-gradient-purple {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #8a2be2, #c779d0);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-dois {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #7F00FF, #00E0FF);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-tres {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #A726CF, #FF00B8);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-quatro {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #6B00D7, #B400D9);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-cinco {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #6B00D7, #00E0FF);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-seis {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #483D8B, #2c2c54);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-sete {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #9966CC, #434343);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
+
+.title.text-gradient-purple-oito {
+  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
+  background-image: linear-gradient(to right, #663399, #3d1d57);
+
+  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
+  color: transparent;
+
+  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
+  display: inline-block;
+}
