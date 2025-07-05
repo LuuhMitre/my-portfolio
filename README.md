@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+cat << 'EOF' > README.md
+# Portfólio de Luana Mitre Gonçalves
 
-## Getting Started
+## 📖 Sobre o Projeto
 
-First, run the development server:
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e minha jornada na transição de carreira para a área de Desenvolvimento Backend. O projeto foi construído do zero, com foco em boas práticas e tecnologias modernas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Acesso ao Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Você pode acessar a versão ao vivo do portfólio implantada na Vercel:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**[https://seu-link-aqui.vercel.app](https://seu-link-aqui.vercel.app)**
+## ✨ Funcionalidades Atuais
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Hero Section:** Apresentação profissional com título, subtítulo e resumo.
+* **Efeito de Degradê:** Título principal estilizado com um degradê de roxo customizado via CSS.
+* **Links Diretos:** Ícones para LinkedIn e GitHub, além de um botão para download direto do currículo.
+* **Status de Desenvolvimento:** Seções futuras, como a de "Projetos", estão claramente marcadas como "Em Construção".
+* **Design Responsivo:** Layout que se adapta a diferentes tamanhos de tela (desktop, tablet e mobile).
 
-## Learn More
+## 🛠️ Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+A construção deste projeto envolveu as seguintes tecnologias:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **Framework Principal:** [Next.js](https://nextjs.org/)
+* **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
+* **Estilização:** [Bulma CSS](https://bulma.io/)
+* **Fontes:** [Google Fonts](https://

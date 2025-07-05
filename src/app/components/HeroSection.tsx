@@ -11,35 +11,7 @@ const HeroSection = () => {
                 <div className="container">
 
                     {/* Título Principal */}
-                    <h1 className="title text-gradient-purple is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
-                    <h1 className="title text-gradient-purple-dois is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
-                    <h1 className="title text-gradient-purple-tres is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
                     <h1 className="title text-gradient-purple-quatro is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
-                    <h1 className="title text-gradient-purple-cinco is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
-                    <h1 className="title text-gradient-purple-seis is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
-                    <h1 className="title text-gradient-purple-sete is-1">
-                        LUANA MITRE
-                    </h1>
-                    <p></p>
-                    <h1 className="title text-gradient-purple-oito is-1">
                         LUANA MITRE
                     </h1>
 
@@ -50,30 +22,30 @@ const HeroSection = () => {
 
                     {/* Parágrafo de Resumo */}
                     <p className="is-size-5 has-text-weight-light has-text-justified" style={{ maxWidth: '650px', marginBottom: '2rem' }}>
-                        Em transição de carreira, com 10 anos de experiência em Telecomunicações e atuando em gestão de entregas B2B, automação de processos e manipulação de dados.
+                        Profissional com 10 anos de experiência em Telecom, com foco em Desenvolvimento Backend (Java/Python) e Análise de Dados. Especialista em automação de processos e na criação de dashboards com SQL e Power BI para gerar insights de negócio.
                     </p>
 
                     {/* Botões de Ação */}
-                    <div className="buttons">
-                        <a href="#projetos" className="button is-link is-medium">
-                            Ver Projetos
-                        </a>
-                        <a href="/Luana_Mitre_CV.pdf" className="button is-light is-medium" target="_blank" rel="noopener noreferrer">
-                            Download CV
-                        </a>
-                    </div>
 
-                    {/* Ícones de Redes Sociais */}
-                    <div className="is-flex is-align-items-center mt-5">
+                    <div className="is-flex is-align-items-center">
                         <a href="https://www.linkedin.com/in/luana-mitre" target="_blank" rel="noopener noreferrer" className="mr-4 has-text-grey-light">
                             <span className="icon is-large">
                                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
                             </span>
                         </a>
-                        <a href="https://github.com/LuuhMitre" target="_blank" rel="noopener noreferrer" className="has-text-grey-light">
+                        <a href="https://github.com/LuuhMitre" target="_blank" rel="noopener noreferrer" className="mr-4 has-text-grey-light">
                             <span className="icon is-large">
                                 <FontAwesomeIcon icon={faGithub} size="2x" />
                             </span>
+                        </a>
+                        <a href="/Luana_Mitre_CV.pdf" className="button is-light is-medium" target="_blank" rel="noopener noreferrer">
+                            Download CV
+                        </a>
+                    </div>
+                    <br></br>
+                    <div className="buttons mb-5">
+                        <a href="#projetos" className="button is-link is-medium">
+                            Ver Projetos <span className="tag is-warning is-small ml-2">Em Construção</span>
                         </a>
                     </div>
 
