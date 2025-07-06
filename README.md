@@ -25,4 +25,3 @@ A construção deste projeto envolveu as seguintes tecnologias:
 * **Framework Principal:** [Next.js](https://nextjs.org/)
 * **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
 * **Estilização:** [Bulma CSS](https://bulma.io/)
-* **Fontes:** [Google Fonts](https://

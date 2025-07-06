@@ -22,7 +22,7 @@ const HeroSection = () => {
 
                     {/* Parágrafo de Resumo */}
                     <p className="is-size-5 has-text-weight-light has-text-justified" style={{ maxWidth: '650px', marginBottom: '2rem' }}>
-                        Profissional com 10 anos de experiência em Telecom, com foco em Desenvolvimento Backend (Java/Python) e Análise de Dados. Especialista em automação de processos e na criação de dashboards com SQL e Power BI para gerar insights de negócio.
+                        Estou em transição de carreira para a área de TI, com foco em Desenvolvimento Backend (Java/Python) e Análise de Dados. Especialista em automação de processos e na criação de dashboards com SQL e Power BI para gerar insights de negócio.
                     </p>
 
                     {/* Botões de Ação */}
