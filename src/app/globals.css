@@ -1,12 +1,12 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #27242c5b;
+  --foreground: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #27242c5b;
+    --foreground: #ffffff;
   }
 }
 
@@ -90,7 +90,7 @@ a {
 
 .title.text-gradient-purple-quatro {
   /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #6B00D7, #B400D9);
+  background-image: linear-gradient(to right, #6b00d79f, #6b00d7ce);
 
   /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
   -webkit-background-clip: text;
