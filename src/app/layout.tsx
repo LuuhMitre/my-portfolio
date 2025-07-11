@@ -18,6 +18,9 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Portfólio Luana Mitre",
   description: "Portfólio de desenvolvimento de Luana Mitre",
+  icons: {
+    icon: '/icons/favicon.png',
+  },
 };
 
 export default function RootLayout({
