@@ -12,7 +12,7 @@ const Projects = () => {
 
                     {/* Projeto ordenado de forma decrescente */}
                     {[...projectsData].sort((a, b) => b.id - a.id).map((project) => (
-                        <div key={project.id} className="columns is-vcentered mb-5 project-content-block">
+                        <div key={project.id} className="columns is-vcentered mb-5 project-content-block is-multiline">
                             <div className="column is-6-desktop is-12-tablet has-text-centered">
                                 <ProjectCard project={project} />
                             </div>

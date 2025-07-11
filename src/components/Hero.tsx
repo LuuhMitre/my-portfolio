@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="container">
                     <div className="content-block">
                         {/* Utilizando colunas para alinhar o texto e a imagem lado a lado */}
-                        <div className="columns is-vcentered">
+                        <div className="columns is-vcentered is-multiline">
                             {/* Coluna 1 - coluna de texto */}
                             <div className="column is-6-desktop is-12-tablet">
 
