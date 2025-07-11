@@ -13,7 +13,7 @@ const Hero = () => {
                             {/* Coluna 1 - coluna de texto */}
                             <div className="column is-6-desktop is-12-tablet">
 
-                                <h1 className="title text-gradient-purple-quatro is-1">
+                                <h1 className="title text-gradient is-1">
                                     LUANA MITRE
                                 </h1>
                                 <h2 className="subtitle is-3 has-text-light">

@@ -36,7 +36,7 @@ a {
 
 .content-block {
   /* Fundo roxo com baixa opacidade */
-  background-color: rgba(187, 134, 252, 0.05);
+  background-color: rgba(187, 134, 252, 0.15);
 
   padding: 2.5rem;
   border-radius: 8px;
@@ -51,54 +51,37 @@ a {
   border: 1px solid rgba(187, 134, 252, 0.1);
 }
 
+.project-content-block {
+  /* Fundo preto com alta opacidade */
+  background-color: rgba(1, 1, 1, 0.7);
 
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
-.title.text-gradient-purple {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #8a2be2, #c779d0);
+  /* Efeito de "vidro fosco" */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
-
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
+  /* Borda sutil usando a mesma cor, mas com um pouco mais de opacidade */
+  border: 1px solid rgba(187, 134, 252, 0.1);
 }
 
-.title.text-gradient-purple-dois {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #7F00FF, #00E0FF);
+.footer-content-block {
+  /* Fundo roxo com baixa opacidade */
+  background-color: rgba(187, 134, 252, 0.15);
 
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
 
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
+  /* Efeito de "vidro fosco" */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
+  /* Borda sutil usando a mesma cor, mas com um pouco mais de opacidade */
+  border: 1px solid rgba(187, 134, 252, 0.1);
 }
 
-.title.text-gradient-purple-tres {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #A726CF, #FF00B8);
-
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
-
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
-}
-
-.title.text-gradient-purple-quatro {
+.title.text-gradient {
   /* 1. Define o fundo como um degradê linear da esquerda para a direita */
   background-image: linear-gradient(to right, #6b00d79f, #6b00d7ce);
 
@@ -113,62 +96,27 @@ a {
   display: inline-block;
 }
 
-.title.text-gradient-purple-cinco {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #6B00D7, #00E0FF);
-
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
-
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
+/* Personalizando os botões */
+.button.is-primary {
+  background-color: #BB86FC;
+  border-color: transparent;
+  color: #1a1a1d;
 }
 
-.title.text-gradient-purple-seis {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #483D8B, #2c2c54);
-
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
-
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
+.button.is-primary:hover {
+  background-color: #a96ef9;
+  /* Um tom um pouco mais escuro para o hover */
+  border-color: transparent;
 }
 
-.title.text-gradient-purple-sete {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #9966CC, #434343);
-
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
-
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
+.button.is-primary-outlined {
+  background-color: transparent;
+  border-color: #BB86FC;
+  color: #BB86FC;
 }
 
-.title.text-gradient-purple-oito {
-  /* 1. Define o fundo como um degradê linear da esquerda para a direita */
-  background-image: linear-gradient(to right, #663399, #3d1d57);
-
-  /* 2. "Corta" o fundo para que ele só ocupe o formato do texto */
-  -webkit-background-clip: text;
-  background-clip: text;
-
-  /* 3. Deixa a cor do texto transparente para que o fundo (degradê) apareça */
-  color: transparent;
-
-  /* 4. (Opcional) Ajuda a garantir que o fundo cubra todo o texto */
-  display: inline-block;
+.button.is-primary-outlined:hover {
+  background-color: #BB86FC;
+  color: #1a1a1d;
+  border-color: #BB86FC;
 }
