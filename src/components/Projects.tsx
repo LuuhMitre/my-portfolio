@@ -1,5 +1,6 @@
 import { projectsData } from '../data/projects';
 import ProjectCard from './ProjectCard';
+import TechIcon from './TechIcon';
 
 const Projects = () => {
     return (
@@ -20,6 +21,11 @@ const Projects = () => {
                                 <div className="content is-medium has-text-justified">
                                     <p className="title is-4">{project.title}</p>
                                     <p>{project.description}</p>
+                                    <div style={{ display: 'flex', justifyContent: 'left', gap: '1rem', fontSize: '2em', margin: '20px 0' }}>
+                                        {project.technologies.map((iconName) => (
+                                            <TechIcon key={iconName} iconName={iconName} />
+                                        ))}
+                                    </div>
                                     <div className="buttons mt-3">
                                         {project.repoUrl && (
                                             <a
@@ -36,9 +42,19 @@ const Projects = () => {
                                                 href={project.liveUrl}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="button is-light"
+                                                className="button is-primary"
                                             >
                                                 Ver Online
+                                            </a>
+                                        )}
+                                        {project.powerBiUrl && (
+                                            <a
+                                                href={project.powerBiUrl}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="button is-primary"
+                                            >
+                                                Power BI
                                             </a>
                                         )}
                                     </div>

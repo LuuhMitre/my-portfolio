@@ -21,7 +21,7 @@ const Hero = () => {
                                 </h2>
                                 {/* Parágrafo de Resumo */}
                                 <p className="is-size-5 has-text-justified">
-                                    Desenvolvedora Full Stack e Analista de Dados. Especialista em automação de processos e na criação de dashboards com SQL e Power BI para gerar insights de negócio.
+                                    Profissional de Tecnologia, unindo desenvolvimento fullstack e análise de dados para criar soluções de BI e automação de processos.
                                 </p>
 
                             </div>
