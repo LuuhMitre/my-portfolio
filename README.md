@@ -1,36 +1,67 @@
-# Portfólio de Luana Mitre Gonçalves
+# 💼 Portfólio de Luana Mitre Gonçalves
 
-## 📖 Sobre o Projeto
+![Status do Projeto](https://img.shields.io/badge/status-online-brightgreen)
+![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript)
+![Bulma CSS](https://img.shields.io/badge/Bulma-00d1b2?logo=bulma)
 
-Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e minha jornada na transição de carreira para a área de Desenvolvimento Backend. O projeto foi construído do zero, com foco em boas práticas e tecnologias modernas.
+## 🚀 Sobre o Projeto
 
-## 🚀 Acesso ao Projeto
+Este é meu portfólio pessoal, criado com o objetivo de apresentar meu perfil profissional, destacar minha trajetória na área de tecnologia e disponibilizar meu currículo para download.
 
-Você pode acessar a versão ao vivo do portfólio implantada na Vercel:
+O site foi desenvolvido como parte dos meus estudos na transição de carreira para Desenvolvimento Full Stack, com uma interface limpa, responsiva e objetiva.
 
-**https://my-portfolio-jet-one-93.vercel.app/**
+🔗 Acesse o site: [https://my-portfolio-jet-one-93.vercel.app/](https://my-portfolio-jet-one-93.vercel.app/)
 
-## ✨ Funcionalidades Atuais
+## ✨ Funcionalidades
 
-* **Hero Section:** Apresentação profissional com título, subtítulo e resumo.
-* **Efeito de Degradê:** Título principal estilizado com um degradê de roxo customizado via CSS.
-* **Links Diretos:** Ícones para LinkedIn e GitHub, além de um botão para download direto do currículo.
-* **Status de Desenvolvimento:** Seções futuras, como a de "Projetos", estão claramente marcadas como "Em Construção".
-* **Design Responsivo:** Layout que se adapta a diferentes tamanhos de tela (desktop, tablet e mobile).
+- ✅ **Apresentação Profissional** com nome, resumo da trajetória e especialidade.
+- ✅ **Botão para download de currículo** em PDF.
+- ✅ **Links rápidos para GitHub e LinkedIn** com ícones personalizados.
+- ✅ **Design Responsivo** para diferentes tamanhos de tela.
+- ✅ **Seção de Projetos** para mostrar meus principais trabalhos.
+- 🎨 Efeitos visuais com degradê e estilização via Bulma CSS.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
-A construção deste projeto envolveu as seguintes tecnologias:
+- [Next.js](https://nextjs.org/) – Framework React para desenvolvimento web
+- [TypeScript](https://www.typescriptlang.org/) – Superset do JavaScript com tipagem estática
+- [Bulma](https://bulma.io/) – Framework CSS leve e responsivo
 
-* **Framework Principal:** [Next.js](https://nextjs.org/)
-* **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
-* **Estilização:** [Bulma CSS](https://bulma.io/)
+## 📁 Estrutura do Projeto
 
----
+```bash
+my-portfolio/
+├── public/                # Arquivos estáticos (favicon, imagens)
+├── src/
+│   ├── components/        # Componentes reutilizáveis em React
+│   ├── pages/             # Páginas da aplicação (Next.js)
+│   └── styles/            # Estilos customizados e temas
+├── README.md
+├── package.json
+└── tsconfig.json
+
+
+```
 
 
 
-Feito com 💜 por Luana Mitre!
+## 📌 Melhorias Futuras
+
+ - Atualizar a seção de Projetos com cards interativos.
+ - Criar seção de Contato, com formulário e links sociais diretos.
+ - Adicionar testes básicos de acessibilidade e usabilidade.
+
+
+## Sobre Mim
+
+Sou Luana Mitre Gonçalves, profissional em transição de carreira para a área de tecnologia, com foco em desenvolvimento full stack. Tenho conhecimento em Python, Java, FastAPI, SQL e atualmente aprofundo habilidades em frontend com React, Next.js e TypeScript.
+
+
+## 📬 Contato e Links
+
+📧 luanamitregoncalves@gmail.com
+
 
 <p align="left">
   <a href="https://www.linkedin.com/in/luana-mitre/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
