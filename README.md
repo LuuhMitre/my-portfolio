@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # Portfólio de Luana Mitre Gonçalves
 
 ## 📖 Sobre o Projeto
