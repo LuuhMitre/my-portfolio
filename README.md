@@ -8,7 +8,8 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 
 Você pode acessar a versão ao vivo do portfólio implantada na Vercel:
 
-**[https://seu-link-aqui.vercel.app](https://seu-link-aqui.vercel.app)**
+**https://my-portfolio-jet-one-93.vercel.app/**
+
 ## ✨ Funcionalidades Atuais
 
 * **Hero Section:** Apresentação profissional com título, subtítulo e resumo.
